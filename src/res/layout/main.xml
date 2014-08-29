@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+android:id="@+id/AbsoluteLayout01" 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@drawable/teg" android:layout_height="fill_parent" android:layout_width="fill_parent">
+<ImageButton 
+android:layout_height="100dp" 
+android:background="@drawable/num1" 
+android:id="@+id/imnumber1" 
+android:layout_width="100dp" 
+android:layout_alignParentRight="true"
+android:layout_above="@+id/imtruefalse"
+android:layout_marginBottom="25dp"
+android:layout_marginRight="50dp" android:layout_marginLeft="200dp">
+</ImageButton>
+<ImageButton 
+android:layout_height="100dp" 
+android:background="@drawable/number6" 
+android:id="@+id/imnumber2"
+android:layout_alignParentLeft="true"
+android:layout_above="@+id/imtruefalse"
+android:layout_width="100dp" android:layout_marginBottom="25dp"
+ android:layout_marginLeft="50dp" android:layout_marginRight="200dp">
+</ImageButton>
+<ImageButton 
+android:visibility="visible" 
+android:layout_height="wrap_content" 
+android:background="@drawable/t" 
+android:id="@+id/imtruefalse" 
+android:layout_width="fill_parent"
+android:layout_centerHorizontal="true"
+android:layout_centerVertical="true"
+android:layout_marginLeft="55dp"
+android:layout_marginRight="55dp" >
+</ImageButton>
+
+<ImageView 
+android:layout_height="90dp" 
+android:id="@+id/ImageView01" 
+android:background="@drawable/tt" 
+android:layout_width="wrap_content" 
+android:layout_centerHorizontal="true"
+android:layout_below="@+id/imtruefalse"
+android:layout_marginTop="5dp" >
+</ImageView>
+
+
+<TextView android:layout_height="wrap_content" android:id="@+id/TextView01" android:layout_width="wrap_content" android:textSize="30dp" android:text="Copyright © UyghurDev.net"
+ android:layout_alignParentBottom="true" android:layout_marginLeft="10dp"></TextView>
+</RelativeLayout>
